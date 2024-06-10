@@ -71,9 +71,7 @@ int findBestMarkNumber(int* marks, int size) {
 		return -1;
 	}
 	
-	for (int i = 0; i < 7; i++) {
-		std::cin >> grades[i];
-	}
+	
 
 	int i = 0;
 	int j = 0;
@@ -94,12 +92,6 @@ int findBestMarkNumber(int* marks, int size) {
 			j++;
 		}
 	}
-
-	for (int k = start; k <= end; k++) {
-		std::cout << grades[k] << " ";
-	}
-
-	std::cout << std::endl;
 
 	return 0;
 }

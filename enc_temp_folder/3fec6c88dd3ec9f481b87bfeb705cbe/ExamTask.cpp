@@ -98,7 +98,6 @@ int findBestMarkNumber(int* marks, int size) {
 	for (int k = start; k <= end; k++) {
 		std::cout << grades[k] << " ";
 	}
-
 	std::cout << std::endl;
 
 	return 0;
